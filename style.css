@@ -4,11 +4,15 @@
     height: 100%;
 }
 
-.left{
-    width: 5%;
+.image{
+    width: 90%;
+    height: 110%;
+    background-image: url(images/zine\ cover.png);
+    background-size: cover;
     display: flex;
     align-items: center;
     justify-content: center;
+    margin: 0 auto; 
 }
 
 .left a{
@@ -18,7 +22,7 @@
 }
 
 .right{
-    width: 5%;
+    width: 2%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -28,23 +32,7 @@
     font-size: 3em;
     color: black;
     text-decoration: none;
+    
 }
 
-.left-page{
-    width: 45%;
-}
 
-.right-page{
-    width: 45%;
-    background-image: url(images/toys.jpeg);
-    background-size: cover;
-}
-
-.goddess{
-    width: 40%;
-    height: 40%;
-    position: relative;
-    left: 50%;
-    top: 10%;
-    background-color: white;
-}
