@@ -39,7 +39,7 @@
 
 @media only screen and (max-width: 600px) {
     .container {
-        height: 50vh; /* Adjust the height as needed for mobile devices */
+        height: 35vh; /* Adjust the height as needed for mobile devices */
     }
     .container {
         background-size:cover;
