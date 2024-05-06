@@ -42,6 +42,7 @@
         height: 50vh; /* Adjust the height as needed for mobile devices */
     }
     .container {
-        background-size: contain;
+        background-size:contain;
+        background-position: center;
     }
 }
