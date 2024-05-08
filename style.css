@@ -47,10 +47,10 @@
     
     .container {
         height: 300px; /* Adjust the height as needed for mobile devices */
-        width: 390px;
+        width: 400px;
     }
     .container {
-        background-image: url(images/small.png); /* Specify the path to the alternate image */
+        background-image: url(images/small-1.png); /* Specify the path to the alternate image */
     }
 
     .image {
