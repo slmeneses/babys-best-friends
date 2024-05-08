@@ -31,7 +31,7 @@
 }
 
 .right a{
-    font-size: 5em;
+    font-size: 10em;
     color: rgba(0, 0, 0, 0);
     text-decoration: none;
     
@@ -53,7 +53,7 @@
         width: 400px;
     }
     .container {
-        background-image: url(images/phone-size.png); /* Specify the path to the alternate image */
+        background-image: url(images/phone-cover-alt.png); /* Specify the path to the alternate image */
     }
 
     .image {

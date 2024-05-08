@@ -26,7 +26,7 @@
 }
 
 .left a{
-    font-size: 6em;
+    font-size: 10em;
     color: rgba(0, 0, 0, 0);
     text-decoration: none;
 }
@@ -39,25 +39,33 @@
 }
 
 .right a{
-    font-size: 6em;
+    font-size: 10em;
     color: rgba(0, 0, 0, 0);
     text-decoration: none;
     
 }
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px){
+
     body {
         height:100%; 
         width:100%;
+        display: flex; /* Enable flexbox */
+        justify-content: center; /* Center items horizontally */
+        align-items: center; /* Center items vertically */
+        margin: 0; /* Remove default body margin */
     }
-    
     .container {
-        height: 300px; /* Adjust the height as needed for mobile devices */
-        width: 600px;
+        height: 700px; /* Adjust the height as needed for mobile devices */
+        width: 400px;
     }
     .container {
-        background-size:cover;
-        background-position: center;
-        background-repeat: no-repeat;
+        background-image: url(../images/phone-close.png); /* Specify the path to the alternate image */
+    }
+
+    .image {
+        height: 0px; /* Adjust the height as needed for mobile devices */
+        width: 0px;
+
     }
 }
