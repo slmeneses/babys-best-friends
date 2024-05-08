@@ -50,7 +50,7 @@
         width: 600px;
     }
     .container {
-        background-image: url(images/small-cover.png); /* Specify the path to the alternate image */
+        background-image: url(images/small-cover-2.png); /* Specify the path to the alternate image */
         background-size:cover;
         background-position: center;
         background-repeat: no-repeat;
