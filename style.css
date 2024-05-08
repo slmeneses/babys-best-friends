@@ -38,7 +38,7 @@
 }
 
 
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 800px) {
     body {
         height:100%; 
         width:100%;
@@ -47,12 +47,15 @@
     
     .container {
         height: 300px; /* Adjust the height as needed for mobile devices */
-        width: 600px;
+        width: 390px;
     }
     .container {
-        background-image: url(images/small-cover-2.png); /* Specify the path to the alternate image */
-        background-size:cover;
-        background-position: center;
-        background-repeat: no-repeat;
+        background-image: url(images/small.png); /* Specify the path to the alternate image */
+    }
+
+    .image {
+        height: 0px; /* Adjust the height as needed for mobile devices */
+        width: 0px;
+
     }
 }
