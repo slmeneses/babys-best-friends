@@ -37,12 +37,20 @@
     
 }
 
+
 @media only screen and (max-width: 600px) {
+    body {
+        height:100%; 
+        width:100%;
+        margin: auto;
+    }
+    
     .container {
         height: 300px; /* Adjust the height as needed for mobile devices */
         width: 600px;
     }
     .container {
+        background-image: url(images/small-cover.png); /* Specify the path to the alternate image */
         background-size:cover;
         background-position: center;
         background-repeat: no-repeat;
