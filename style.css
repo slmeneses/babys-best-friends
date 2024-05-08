@@ -42,15 +42,18 @@
     body {
         height:100%; 
         width:100%;
-        margin: auto;
+        display: flex; /* Enable flexbox */
+        justify-content: center; /* Center items horizontally */
+        align-items: center; /* Center items vertically */
+        margin: 0; /* Remove default body margin */
     }
     
     .container {
-        height: 300px; /* Adjust the height as needed for mobile devices */
+        height: 700px; /* Adjust the height as needed for mobile devices */
         width: 400px;
     }
     .container {
-        background-image: url(images/small-2.png); /* Specify the path to the alternate image */
+        background-image: url(images/phone-size.png); /* Specify the path to the alternate image */
     }
 
     .image {
